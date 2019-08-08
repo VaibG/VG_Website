@@ -177,7 +177,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a:hover, #about a:focus { color: #F06000; }
 
 #about h2 {
    font: 30px 'opensans-bold', sans-serif;
@@ -231,7 +231,7 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#experience a, #experience a:visited  { color: #11ABB0; }
+#experience a, #experience a:visited  { color: #F06000; }
 #experience a:hover, #experience a:focus { color: #313131; }
 
 #experience h1 {
@@ -240,7 +240,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #experience h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #F06000;
    padding-bottom: 6px;
 }
 #experience h3 {
@@ -290,11 +290,10 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #projects .grid-container {
-  height: 800px;
   margin: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-gap: 40px 40px;
 }
 
@@ -340,7 +339,7 @@ h2.project_name {
 
 #projects h3.project-name  {
     font-size:2rem;
-    color:#4ABDAC;
+    color:#F06000;
     margin-bottom:10px;
     font-weight:700;
     padding:0 15px;
@@ -391,8 +390,8 @@ h2.project_name {
 
 .project-try-button{
     color:#fff;
-    border-color:#4ABDAC;
-    background-color:#4ABDAC;
+    border-color:#F06000;
+    background-color:#F06000;
     -webkit-transition:.4s all;
     transition: .4s all;
     border-radius: 99px;
@@ -403,11 +402,11 @@ h2.project_name {
     margin-left: 30%;
 }
 .project-try-button:hover{
-    background-color:rgba(74,189,172,.8)
+    background-color: #FF983CFF;
 }
 
 .project-close-button{
-    color:#4ABDAC;
+    color:#F06000;
     border-color:#fff;
     background-color:#fff;
     -webkit-transition:.4s all;
@@ -434,8 +433,7 @@ h2.project_name {
 @media (max-width:767px){
     #projects .grid-container {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        height: 1600px;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
     #projects h3.project-name  {
       margin-top: 250px;
@@ -572,7 +570,7 @@ h2.project_name {
     bottom:0
 }
 .swiper-container .swiper-pagination .swiper-pagination-bullet-active{
-    background-color:#4ABDAC
+    background-color:#F06000
 }
 .swiper-container .swiper-button-next{
     background-image:url(images/swiper_next_green.svg)
@@ -591,8 +589,8 @@ h2.project_name {
 
 #contact {
    background: #fff;
-   padding-top: 180px;
-   padding-bottom: 180px;
+   padding-top: 250px;
+   padding-bottom: 250px;
    padding-right: 20vw;
    padding-left: 20vw;
    line-height: normal;
