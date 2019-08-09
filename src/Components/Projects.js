@@ -71,10 +71,6 @@ class Projects extends Component {
           <div className="content-container">
           <h2 className="project_name"><a href={projects.link} target="_blank" rel="noopener noreferrer">{projects.name}</a></h2>
                             <div>
-                                <span>Role:</span> {projects.role}
-                            </div>
-
-                            <div>
                                 <span>Technologies:</span> {projects.tech}
                             </div>
 
@@ -83,7 +79,7 @@ class Projects extends Component {
                             </ul>
                           </div>
 
-            <footer className="modal__footer">
+            <div className="modal__footer">
             <a href={projects.link} target="_blank" rel="noopener noreferrer" className="button project-try-button">
                               View Project</a>
               <button
@@ -93,7 +89,7 @@ class Projects extends Component {
               >
                 Close
               </button>
-            </footer>
+            </div>
           </div>
         </div>
       </div>

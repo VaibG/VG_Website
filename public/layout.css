@@ -15,7 +15,7 @@ header {
    width: 100%;
    background: #161415 url(images/header-background.jpg) no-repeat top center;
    background-size: cover !important;
-	-webkit-background-size: cover !important;
+  -webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
 }
@@ -58,8 +58,8 @@ header .banner-text h3 a {
 header .banner-text hr {
    width: 60%;
    margin: 18px auto 24px auto;
-   border-color: #2F2D2E;
-   border-color: rgba(150, 150, 150, .1);
+   border-color: #fff;
+   border-color: #fff;
 }
 
 /* header social links */
@@ -150,7 +150,7 @@ ul#nav li a {
    display: inline-block;
    padding: 8px 20px;
    line-height: 32px;
-	text-decoration: none;
+   text-decoration: none;
    text-align: left;
    color: #fff;
 
@@ -177,11 +177,11 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a:hover, #about a:focus { color: #F06000; }
 
 #about h2 {
    font: 30px 'opensans-bold', sans-serif;
-   color: #7A7A7A;
+   color: #3C3C3C;
    margin-bottom: 12px;
    text-align: center;
 }
@@ -231,7 +231,7 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#experience a, #experience a:visited  { color: #11ABB0; }
+#experience a, #experience a:visited  { color: #F06000; }
 #experience a:hover, #experience a:focus { color: #313131; }
 
 #experience h1 {
@@ -240,7 +240,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #experience h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #F06000;
    padding-bottom: 6px;
 }
 #experience h3 {
@@ -290,11 +290,10 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #projects .grid-container {
-  height: 800px;
   margin: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-gap: 40px 40px;
 }
 
@@ -340,7 +339,7 @@ h2.project_name {
 
 #projects h3.project-name  {
     font-size:2rem;
-    color:#4ABDAC;
+    color:#F06000;
     margin-bottom:10px;
     font-weight:700;
     padding:0 15px;
@@ -391,23 +390,23 @@ h2.project_name {
 
 .project-try-button{
     color:#fff;
-    border-color:#4ABDAC;
-    background-color:#4ABDAC;
+    border-color:#F06000;
+    background-color:#F06000;
     -webkit-transition:.4s all;
     transition: .4s all;
     border-radius: 99px;
     min-width: 100px;
     font-size: 1.2rem;
     border: 2px solid rgba(119,119,119,.8);
+    float: left;
     margin-left: 30%;
-    margin-right: 15%;
 }
 .project-try-button:hover{
-    background-color:rgba(74,189,172,.8)
+    background-color: #FF983CFF;
 }
 
 .project-close-button{
-    color:#4ABDAC;
+    color:#F06000;
     border-color:#fff;
     background-color:#fff;
     -webkit-transition:.4s all;
@@ -416,6 +415,8 @@ h2.project_name {
     min-width: 100px;
     font-size: 1.2rem;
     border: 2px solid rgba(119,119,119,.8);
+    float: right;
+    margin-right: 30%;
 }
 
 @media (max-width: 940px){
@@ -432,8 +433,7 @@ h2.project_name {
 @media (max-width:767px){
     #projects .grid-container {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        height: 1600px;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
     #projects h3.project-name  {
       margin-top: 250px;
@@ -446,7 +446,10 @@ h2.project_name {
       font-size:1.5rem;
     }
     .project-try-button{
-      margin-left: 20%;
+      margin-left: 18%;
+    }
+    .project-close-button{
+      margin-right: 18%;
     }
 }
 
@@ -455,7 +458,10 @@ h2.project_name {
       margin-top: 150px;
     }
     .project-try-button{
-      margin-left: 15%;
+      margin-left: 10%;
+    }
+    .project-close-button{
+      margin-right: 10%;
     }
 }
 
@@ -564,7 +570,7 @@ h2.project_name {
     bottom:0
 }
 .swiper-container .swiper-pagination .swiper-pagination-bullet-active{
-    background-color:#4ABDAC
+    background-color:#F06000
 }
 .swiper-container .swiper-button-next{
     background-image:url(images/swiper_next_green.svg)
@@ -572,3 +578,105 @@ h2.project_name {
 .swiper-container .swiper-button-prev{
     background-image:url(images/swiper_before_green.svg)
 }
+
+.fadeIn {
+  opacity: 0;
+}
+
+/* ------------------------------------------------------------------ */
+/* f. contact Section
+/* ------------------------------------------------------------------ */
+
+#contact {
+   background: #fff;
+   padding-top: 250px;
+   padding-bottom: 250px;
+   padding-right: 20vw;
+   padding-left: 20vw;
+   line-height: normal;
+   text-align: center;
+}
+
+/* ------------------------------------------------------------------ */
+/* g. Footer
+/* ------------------------------------------------------------------ */
+
+footer {
+   padding-top: 48px;
+   margin-bottom: 48px;
+   color: #303030;
+   font-size: 14px;
+   text-align: center;
+   position: relative;
+}
+
+footer a, footer a:visited { color: #fff; }
+footer a:hover, footer a:focus { color: #F06000; }
+
+/* copyright */
+footer .copyright {
+    margin: 0;
+    padding: 0;
+ }
+footer .copyright li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+}
+.ie footer .copyright li {
+   display: inline;
+}
+footer .copyright li:before {
+    content: "\2022";
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #F06000;
+}
+footer .copyright  li:first-child:before {
+    display: none;
+}
+
+/* social links */
+footer .social-links {
+   margin: 18px 0 30px 0;
+   padding: 0;
+   font-size: 30px;
+}
+footer .social-links li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 42px;
+    color: #F06000;
+}
+
+footer .social-links li:first-child { margin-left: 0; }
+
+
+#go-top {
+  position: absolute;
+  top: -24px;
+   left: 50%;
+   margin-left: -30px;
+}
+#go-top a {
+  text-decoration: none;
+  border: 0 none;
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-color: #525252;
+
+  -webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+
+  color: #fff;
+  font-size: 21px;
+  line-height: 60px;
+  border-radius: 100%;
+}
+#go-top a:hover { background-color: #F06000; }
