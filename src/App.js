@@ -18,7 +18,7 @@ class App extends React.Component {
     "name":"Vaibhav Gattani",
     "image":"profilepic.jpg",
     "website": "http://www.vaibgattani.com",
-    "resumedownload":"https://drive.google.com/file/d/1UQEUcYUkF-Z3s4nbl4KWcfs8nC_N_MXh/view?usp=sharing",
+    "resumedownload":"https://drive.google.com/open?id=1RNchLhjUHYEB_PO1DhF8g2kZZ4WOazmX",
     "social":[
       {
         "name":"facebook",
@@ -43,13 +43,12 @@ class App extends React.Component {
     ]
   },
   "experience":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
         "school":"University of California, Berkeley",
-        "degree":"Bachelors in Computer Science and Business Administration",
+        "degree":"Bachelors in Computer Science",
         "graduated":"Expected May 2021",
-        "description":"Relevant Coursework: CS61A Structure and Interpretations of Computer Programs, CS61B Data Structures, CS70 Discrete Mathematics and Probability Theory, CS61C Systems and Architecture, CS170 Problem Solving"
+        "description":"Relevant Coursework:\nCS61A Structure and Interpretations of Computer Programs\nCS61B Data Structures\nCS70 Discrete Mathematics and Probability Theory\nCS61C Great Ideas of Computer Architecture\nCS170 Efficient Algorithms and Intractable Problems"
       },
       {
         "school":"United World College of South East Asia - Dover",
@@ -78,13 +77,40 @@ class App extends React.Component {
         "description":"Collaborated with a team of 3 to execute a mobile application, with a purpose of helping doctors reach patients. Also, designed a video call feature on Android and on the web using JavaScript and HTML, hosted by OpenTok servers."
       }
     ],
-    "skills": "Java, Python, Swift, React, JavaScript, Android, SQL, Scheme, AppleScript, Pandas, Numpy, PyTorch, PostgreSQL, Firebase, AWS, Azure, Node.js, Git, Adobe Photoshop"
+    "leadership":[
+      {
+        "org":"Berkeley Codeology",
+        "title":"Project Manager, Project Leader",
+        "years":"January 2019 - Present",
+        "description":"Codeology is a supportive community dedicated to professional development, interview preparation and exploring different areas of technology. At Codeology, I led a team of six over the course of eight weeks to develop a Stock Exchange Assistant web app, organized workflow of product, lectured about React topics, and hosted weekly meetings to check up on development progress. Previously, I took on the challenge of image classification using a Resnet Neural Network test on 200,000 images from Amazon fashion dataset."
+      },
+      {
+        "org":"Mobile Developers of Berkeley",
+        "title":"VP of Finance, iOS Developer",
+        "years":"August 2018 - Present",
+        "description":"Mobile Developers of Berkeley is a community dedicated to drive change through innovative ideas and application development. I served in a six-man leadership team establishing strategies for short-term and long-term growth of the organization. I also managed a budget of over $50000 while accruing revenue by mobile development contracts with Bay Area companies."
+      },
+      {
+        "org":"Upsilon Pi Epsilon",
+        "title":"Industrial Relations Committee",
+        "years":"August 2019 - Present",
+        "description":"UPE is the international honor society for the computing and information disciplines and is endorsed by ACM and IEEE. Membership is extended to the top third of Computer Science students based on GPA. At UPE, I help organize industry events for the Berkeley CS community."
+      },
+      {
+        "org":"Phi Beta Lambda Berkeley",
+        "title":"Senior Analyst",
+        "years":"August 2019 - December 2019",
+        "description":"Berkeley PBL helps foster professional growth through the practice of various committees and curriculums. Worked with DocuSign in a team of 8 to sort over 50 different research reports and created 6 different affinity mappings. Pipelined 3 feature improvements in the product roadmap based on an association analysis of target segments and feature sets. Formulated recommendations and presented to DocuSign executives and leadership team"
+      }
+    ],
+    "skills": "Java, Python, Swift, React, JavaScript, Android, SQL, Scheme, AppleScript, Pandas, Numpy, PyTorch, PostgreSQL, Firebase, AWS, Azure, Node.js, Git, Adobe Photoshop",
+    "interests": "Drums, Tennis, Golf, Travel, Coding, Chess, TV Shows, Reading",
   },
   "projects": [
       {
         "name": "Personal Website",
         "link": "http://vaibgattani.com/",
-        "tech": "React JS, jQuery, JavaScript, HTML",
+        "tech": "ReactJS, jQuery, JavaScript, HTML",
         "topic": "A Full-Stack React Website",
         "description": [
         {
@@ -94,7 +120,7 @@ class App extends React.Component {
           desc: "Implemented a flex slider and anchors for easy navigation"
         },
         {
-          desc: "",
+          desc: "Worked with React Components and understood the activity lifecycle",
         }],        "cover": "images/personal_website.png",
         "pictures": [ 
         {
@@ -102,15 +128,15 @@ class App extends React.Component {
           "caption": "Landing page of my website"
         },
         {
-          "url": "walk_berlin_s_u_bahn_network_2_rectangle.png",
+          "url": "images/personal_website_2.png",
           "caption": "About section"
         },
         {
-          "url": "walk_berlin_s_u_bahn_network_2_rectangle.png",
+          "url": "images/personal_website_3.png",
           "caption": "Experience section"
         },
         {
-          "url": "walk_berlin_s_u_bahn_network_2_rectangle.png",
+          "url": "images/personal_website_4.png",
           "caption": "Projects section"
         }
       ]
