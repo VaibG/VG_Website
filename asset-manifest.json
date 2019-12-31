@@ -1,18 +1,26 @@
 {
   "files": {
-    "main.css": "/VG_Website/static/css/main.2680dfa7.chunk.css",
-    "main.js": "/VG_Website/static/js/main.d67d6caa.chunk.js",
-    "main.js.map": "/VG_Website/static/js/main.d67d6caa.chunk.js.map",
-    "runtime~main.js": "/VG_Website/static/js/runtime~main.bb89d132.js",
-    "runtime~main.js.map": "/VG_Website/static/js/runtime~main.bb89d132.js.map",
-    "static/css/2.a9a8df71.chunk.css": "/VG_Website/static/css/2.a9a8df71.chunk.css",
-    "static/js/2.b8d267af.chunk.js": "/VG_Website/static/js/2.b8d267af.chunk.js",
-    "static/js/2.b8d267af.chunk.js.map": "/VG_Website/static/js/2.b8d267af.chunk.js.map",
-    "index.html": "/VG_Website/index.html",
-    "precache-manifest.6b4adfecf48cbec9c210bd4b2f3cd918.js": "/VG_Website/precache-manifest.6b4adfecf48cbec9c210bd4b2f3cd918.js",
-    "service-worker.js": "/VG_Website/service-worker.js",
-    "static/css/2.a9a8df71.chunk.css.map": "/VG_Website/static/css/2.a9a8df71.chunk.css.map",
-    "static/css/main.2680dfa7.chunk.css.map": "/VG_Website/static/css/main.2680dfa7.chunk.css.map",
-    "static/media/font-awesome.min.css": "/VG_Website/static/media/fontawesome-webfont.fee66e71.woff"
-  }
+    "main.css": "/static/css/main.2680dfa7.chunk.css",
+    "main.js": "/static/js/main.59329438.chunk.js",
+    "main.js.map": "/static/js/main.59329438.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.53f83370.js",
+    "runtime-main.js.map": "/static/js/runtime-main.53f83370.js.map",
+    "static/css/2.400f043a.chunk.css": "/static/css/2.400f043a.chunk.css",
+    "static/js/2.3db54dd9.chunk.js": "/static/js/2.3db54dd9.chunk.js",
+    "static/js/2.3db54dd9.chunk.js.map": "/static/js/2.3db54dd9.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a4b195ebe460fda7662946b0217c31ef.js": "/precache-manifest.a4b195ebe460fda7662946b0217c31ef.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.400f043a.chunk.css.map": "/static/css/2.400f043a.chunk.css.map",
+    "static/css/main.2680dfa7.chunk.css.map": "/static/css/main.2680dfa7.chunk.css.map",
+    "static/js/2.3db54dd9.chunk.js.LICENSE": "/static/js/2.3db54dd9.chunk.js.LICENSE",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.53f83370.js",
+    "static/css/2.400f043a.chunk.css",
+    "static/js/2.3db54dd9.chunk.js",
+    "static/css/main.2680dfa7.chunk.css",
+    "static/js/main.59329438.chunk.js"
+  ]
 }
