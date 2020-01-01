@@ -201,22 +201,26 @@ ul#nav li.current a { color: #F06000; }
 #about a, #about a:visited  { color: #fff; }
 #about a:hover, #about a:focus { color: #F06000; }
 
-#about h2 {
+#about h2.headerr {
    font: 42px 'opensans-bold', sans-serif;
    color: #3C3C3C;
    margin-bottom: 12px;
    text-align: center;
+   opacity: 0;
 }
-#about p {
+#about p.description {
    line-height: 30px;
    color: #7A7A7A;
    text-align: center;
+   opacity: 0;
 }
 #about .profile-pic {
    position: relative;
    border-radius: 100%;
    vertical-align: middle;
-
+   opacity: 0;
+/*   animation: fadeInUp 1s ease-in-out;
+*/
 }
 #about .download {
    width: 58.33333%;
@@ -227,6 +231,8 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
    background: #000;
    font-size: 0.75em;
+   text-align: center;
+   display: block;
 }
 #about .download .button:hover {
    background: #fff;
@@ -239,6 +245,17 @@ ul#nav li.current a { color: #F06000; }
 #about p span {
    color: #3C3C3C;
    font-weight: 700;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 
@@ -454,10 +471,12 @@ h2.project_name {
 
 #projects .grid-item-cover:hover .grid-item-cover-bg{
     opacity:.9;
+    animation: change .49s cubic-bezier(0.555, 0.175, 0.32, 1.275);
 }
 
 #projects .grid-item-cover:hover .grid-content{
     visibility: visible;
+    animation: change .49s cubic-bezier(0.555, 0.175, 0.32, 1.275);
 }
 
 #projects .grid-content {
@@ -561,8 +580,15 @@ h2.project_name {
   color: black;
 }
 
+#projects h2.project-tech {
+  color: gray;
+  font-size: 1.75rem;
+  text-align: center;
+}
+
 #projects ul {
-    list-style-type: disc;
+    list-style-type: square;
+    list-style-position: inside;
 }
 
 #projects li {
@@ -571,6 +597,8 @@ h2.project_name {
     text-align: left;
     font-size: 1.6rem;
     color: #000;
+    padding-left: 20%;
+    width: 80%;
 }
 
 .content-container {
@@ -630,7 +658,7 @@ h2.project_name {
     line-height:1.33rem;
     font-size:1.5rem;
     padding:0 15px;
-    font-family: "Roboto Slab",monospace;
+    font-weight: 700;
     color:#000;
 }
 @media (max-width:480px){
