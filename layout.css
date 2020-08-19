@@ -235,8 +235,8 @@ ul#nav li.current a { color: #F06000; }
    display: block;
 }
 #about .download .button:hover {
-   background: #fff;
-   color: #000;
+   background: #000;
+   color: #F06000;
 }
 #about .download .button i {
    margin-right: 0.5vw;
